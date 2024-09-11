@@ -1,0 +1,160 @@
+body {
+    font-family: "Merriweather", serif;
+    margin: 0;
+
+}
+
+.hero {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(221, 244, 246);
+
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 5em;
+    font-weight: bolder;
+    color: #66bfbf;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+}
+
+.hero>.up-cloud {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+
+.hero .down-cloud {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+
+span {
+    text-decoration: underline;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about>img {
+    height: 30%;
+    border-radius: 50%;
+}
+
+.about h3 {
+    font-family: "Merriweather", serif;
+    color: #66bfbf;
+}
+
+.center-text {
+    width: 30%;
+    text-align: center;
+}
+
+.skills>h3 {
+    text-align: center;
+    color: #66bfbf;
+}
+
+.item-float {
+    position: relative;
+    left: 30%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+h4 {
+    color: #66bfbf;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.left-float>img,
+.right-float>img {
+    float: left;
+    height: 200px;
+    margin: 20px;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.get-in-touch h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    color: powderblue;
+}
+.get-in-touch p{
+    width: 40%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+button{
+    font-size: 1em;
+    padding: 15px;
+    background-color: #11cdd4;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    height: 30vh;
+    background-color: #66bfbf;
+    
+}
+.footer-links{
+    position: relative;
+    top: 85px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links>a {
+    text-decoration: none;
+    color: #036f72;
+}
+.middle-footer{
+    position: relative;
+    top: 85px;
+    text-align: center;
+    color: white;
+}
